@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Footer h1{
+    color: #000000;
+    font-family: 'Yesteryear';
+    text-align: center;
+}
+
+.Footer footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+}

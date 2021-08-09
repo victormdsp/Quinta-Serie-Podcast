@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SobreNos{
+    height: 100vh;
+    background-color: #B20000;  
+}
+
+.TextAboutUs{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+
+    width: 75%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+
+}
+
+.TextAboutUs h1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+.TextAboutUs h2{
+    font-family: 'Yesteryear';
+    text-align: left;
+    color: #000000;
+    font-size: 30px;
+    text-shadow: 1px 1px #8a8a8a;
+}
+
+.FotoGrupo{
+    width: 600px;
+    height: 400px;
+
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-row-start: 1;
+
+    margin-left: 2rem;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Participantes{
+    height: 100vh;
+    background-color: #B20000;
+}
+
+.Part img{
+    width: 200px;
+    height: 175px;
+}
+
+.Part{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.Part h1{
+    width: 300px;
+    text-align: center;
+}
+
+.player{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+}
+
+.Part h2{
+    font-size: 25px;
+}

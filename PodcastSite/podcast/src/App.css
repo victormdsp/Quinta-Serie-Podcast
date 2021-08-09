@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    height: 100vh;
+    background-color: #B20000;  
+}
+
+.Body h1{
+    color: #000000;
+    text-align: center;
+    margin-top: 2rem;
+    text-shadow: 0.5px 0.5px #ffffff;
+}
+
+.videos{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.videos{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.videoRecente{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.videoRecente h2{
+    text-align: center;
+    font-family: 'Yesteryear';
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 3px 3px #000000;
+}
+

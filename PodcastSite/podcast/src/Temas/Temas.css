@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Temas{
+    height: 100vh;
+    background-color: #B20000;  
+}
+
+.hTemas{
+    color: #000000;
+    text-align: center;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 100px;
+    margin-top: 25vh;
+}
+
