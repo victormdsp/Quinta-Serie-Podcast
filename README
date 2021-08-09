@@ -1,0 +1,4 @@
+Repositório do projeto do site da Quinta Série PodCast.
+
+Os arquivos estão dentro da pasta podcast/src , para rodar o projeto , é necessário ter o NodeJS instalado e rodar o comando cd podcast e em seguida npm start.
+
